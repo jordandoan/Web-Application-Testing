@@ -1,0 +1,27 @@
+.container {
+  border: 1px dashed black;
+  width:60%;
+  margin: 40px auto;
+  padding: 30px;
+  text-align:center;
+}
+.buttons {
+  display:flex;
+  justify-content: center;
+}
+.display {
+  display:flex;
+  justify-content: center;
+}
+
+.score-container {
+  background-color:lightblue;
+  padding:20px;
+  margin:20px;
+  width:25%;
+  border: 5px solid black;
+  text-align:center;
+}
+.score {
+  font-size: 40px;
+}

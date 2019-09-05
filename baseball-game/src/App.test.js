@@ -1,6 +1,6 @@
 import React from 'react';
-import * as rtl from 'react-testing-library';
-import 'jest-dom/extend-expect';
+import * as rtl from '@testing-library/react'
+import '@testing-library/jest-dom/extend-expect';
 
 import App from './App';
 
@@ -10,4 +10,6 @@ it('renders without crashing', () => {
   const wrapper = rtl.render(
     <App />
   );
+  const element = wrapper.queryByText(/balls/i);
+  expect(element).toBeInTheDocument();
 });

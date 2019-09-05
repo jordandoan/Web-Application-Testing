@@ -1,6 +1,6 @@
 .container {
   border: 1px dashed black;
-  width:40%;
+  width:60%;
   margin: 40px auto;
   padding: 30px;
   text-align:center;
@@ -18,7 +18,7 @@
   background-color:lightblue;
   padding:20px;
   margin:20px;
-  width:100px;
+  width:25%;
   border: 5px solid black;
   text-align:center;
 }

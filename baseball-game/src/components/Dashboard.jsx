@@ -8,7 +8,7 @@ const Dashboard = ({ incrementBalls, incrementStrikes, strikes, resetCount }) =>
   }
 
   return (
-    <div>
+    <div className="buttons">
         <button onClick= {incrementBalls}>Ball</button>
         <button onClick={incrementStrikes}>Strike</button>
         <button onClick={handleFoul}>Foul</button>

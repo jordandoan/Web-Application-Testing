@@ -20,7 +20,8 @@ function App() {
   }, [balls,strikes]);
 
   return (
-    <div>
+    <div className="container">
+      <h1>Your Current Batter</h1>
       <Dashboard resetCount={resetCount} strikes={strikes} incrementBalls={incrementBalls} incrementStrikes={incrementStrikes}/>
       <Display balls={balls} strikes={strikes}/>
     </div>

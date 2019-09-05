@@ -2,12 +2,14 @@ import React from 'react';
 
 const Display = ({strikes, balls}) => {
   return (
-    <div>
-      <div>
-        <p>{strikes}</p>
+    <div className="display">
+      <div className="score-container">
+        <p>Balls</p>
+        <p className='score'>{balls}</p>
       </div>
-      <div>
-        <p>{balls}</p>
+      <div className="score-container">
+        <p>Strikes</p>
+        <p className="score">{strikes}</p>
       </div>
     </div>
   );
